@@ -1,0 +1,28 @@
+{
+  "name": "utclist",
+  "version": "1.0.0",
+  "description": "用于展示数据的UTC数据集,包含全世界 时区缩写 所属地区 夏令时 和 标准时.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuQixuan/UTCList.git"
+  },
+  "keywords": [
+    "UTC",
+    "GMT",
+    "TimeZone",
+    "TimeZoneName"
+  ],
+  "author": "LiuQixuan@Aiusoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiuQixuan/UTCList/issues"
+  },
+  "homepage": "https://github.com/LiuQixuan/UTCList#readme",
+  "devDependencies": {
+    "js-beautify": "^1.14.0"
+  }
+}

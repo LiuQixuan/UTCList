@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# vscode setting
+/.vscode/
+
+# misc
+.DS_Store
+
+# npm ignore
+.npmignore
+
+# git
+/.git/
+.gitattributes
