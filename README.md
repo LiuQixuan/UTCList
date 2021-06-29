@@ -24,7 +24,7 @@ UTC codes and abbreviations for Standard Time and Daylight Saving Time (DST) aro
 interface UTCListItem {
   abbr: string //UTC时区缩写(UTC time zone )
   timeZoneName: string //时区名称 (time zone name)
-  cityNtimeZoneCName: string //时区中文名称 (time zone Chines name)
+  timeZoneCName: string //时区中文名称 (time zone Chines name)
   location: string //使用该时区的区域( the area in which the time zone is used)
   UTCOffset: number  //UTC 偏移量(UTC offset)
 }
@@ -51,7 +51,7 @@ const UTCListRaw = reqriue("UTCList").UTCListRaw
 
 基本格式化输出测试
 ```javascript
-console.log(UTCList[0].abbr,UTCList[0].timeZoneName,UTCList[0].cityNtimeZoneCName,UTCList[0].location,UTCList[0].UTCOffset)
+console.log(UTCList[0].abbr,UTCList[0].timeZoneName,UTCList[0].timeZoneCName,UTCList[0].location,UTCList[0].UTCOffset)
 ```
 
 ## Notice/注意

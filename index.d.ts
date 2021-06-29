@@ -12,7 +12,7 @@
  * ------------------------------------
  */
 
-declare const UTCList: [{abbr: string, timeZoneName: string , cityNtimeZoneCName: string, location: string, UTCOffset: number }];
-declare const UTCListRaw: [{abbr: string, timeZoneName: string, cityNtimeZoneCName: string, location: string, UTCOffset: number }];
+declare const UTCList: [{abbr: string, timeZoneName: string , timeZoneCName: string, location: string, UTCOffset: number }];
+declare const UTCListRaw: [{abbr: string, timeZoneName: string, timeZoneCName: string, location: string, UTCOffset: number }];
 
 export { UTCList, UTCListRaw };
