@@ -13,3 +13,4 @@ node_modules/
 # git
 /.git/
 .gitattributes
+.gitignore
