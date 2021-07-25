@@ -1,10 +1,13 @@
 {
   "name": "utclist",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "用于展示数据的UTC数据集,包含全世界 时区缩写 所属地区 夏令时 和 标准时.",
   "main": "index.js",
   "scripts": {
-    "build": "node ./src/build.js"
+    "build_normal": "node ./src/build-normal.js",
+    "build_windowsStyle": "node ./src/build-windowsTimezoneStyle.js",
+    "build_all": "npm run build_normal && npm run build_windowsStyle",
+    "test":"jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   },
   "homepage": "https://github.com/LiuQixuan/UTCList#readme",
   "devDependencies": {
-    "js-beautify": "^1.14.0"
+    "js-beautify": "^1.14.0",
+    "jest":"^27.0.6"
   }
 }

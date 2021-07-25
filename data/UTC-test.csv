@@ -1,6 +1,6 @@
-ACDT,Australian Central Daylight Time,澳大利亚中部夏令时间,Australia,UTC +10:30
-ACST,Australian Central Standard Time,澳大利亚中部标准时间,Australia,UTC +9:30
-ACT,Acre Time,阿克雷时间,South America,UTC -5
-ACWST,Australian Central Western Standard Time,澳大利亚中西部标准时间,Australia,UTC +8:45
-ADT,Arabia Daylight Time,阿拉伯夏令时,Asia,UTC +4
-ADT,Atlantic Daylight Time,大西洋夏令时,North America Atlantic,UTC -3
+ACDT,Australian Central Daylight Time,澳大利亚中部夏令时间,Australia,澳大利亚,UTC +10:30
+ACST,Australian Central Standard Time,澳大利亚中部标准时间,Australia,澳大利亚,UTC +9:30
+ACT,Acre Time,阿克雷时间,South America,南美洲,UTC -5
+ACWST,Australian Central Western Standard Time,澳大利亚中西部标准时间,Australia,澳大利亚,UTC +8:45
+ADT,Arabia Daylight Time,阿拉伯夏令时,Asia,亚洲,UTC +4
+ADT,Atlantic Daylight Time,大西洋夏令时,North America Atlantic,"北美洲,大西洋",UTC -3
